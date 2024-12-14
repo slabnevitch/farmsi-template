@@ -31,6 +31,8 @@ enterModal.show();
 // passRepairModalEmail.show();
 // passRepairModalPhone.show();
 // regErrorModal.show();
+// repairDefaultModal.show();
+// repairSuccessModal.show();
 
 // password show
 if(document.querySelector('.eye-ico') !== null){

@@ -1,6 +1,6 @@
 /*=====================Enter=========================*/
 /*--------------------enter-modal----------------------*/
-.enter-modal__dialog {
+.enter-modal-dialog {
   max-width: 464px;
 }
 
@@ -127,7 +127,7 @@
   background-color: #00b88b;
 }
 
-.enter-modal__button {
+.enter-modal__button.button {
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
   column-gap: 10px;
@@ -135,10 +135,10 @@
   padding: 14px 28px;
   font-size: 16px;
 }
-.enter-modal__button.button--loading {
+.enter-modal__button.button.button--loading {
   color: white !important;
 }
-.enter-modal__button.button--loading::after {
+.enter-modal__button.button.button--loading::after {
   position: relative;
   margin: 0;
 }
