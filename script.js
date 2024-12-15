@@ -6,6 +6,7 @@ const passwordErrorModal = new bootstrap.Modal($("#passwordErrorModal"), {});
 
 const regModalEmail = new bootstrap.Modal($("#regModalEmail"), {});
 const regModalPhone = new bootstrap.Modal($("#regModalPhone"), {});
+const regModalPhoneFull = new bootstrap.Modal($("#regModalPhoneFull"), {});
 const enterRegModalEmail = new bootstrap.Modal($("#enterRegModalEmail"), {});
 const enterRegModalPhone = new bootstrap.Modal($("#enterRegModalPhone"), {});
 const passRepairModalEmail = new bootstrap.Modal($("#passRepairModalEmail"), {});
@@ -13,9 +14,10 @@ const passRepairModalPhone = new bootstrap.Modal($("#passRepairModalPhone"), {})
 const regErrorModal = new bootstrap.Modal($("#regErrorModal"), {});
 
 const repairDefaultModal = new bootstrap.Modal($("#repairDefaultModal"), {});
+const repairEmailModal = new bootstrap.Modal($("#repairEmailModal"), {});
 const repairSuccessModal = new bootstrap.Modal($("#repairSuccessModal"), {});
 
-$("#enterModal, #passwordModal").on('shown.bs.modal', function () {
+$("#enterModal, #passwordModal, #regModalEmail").on('shown.bs.modal', function () {
   $(this).find('input').eq(0).focus();
 });
 
@@ -26,13 +28,16 @@ $("#enterModal, #passwordModal").on('shown.bs.modal', function () {
 // passwordErrorModal.show();
 // regModalEmail.show();
 // regModalPhone.show();
+// regModalPhoneFull.show();
 // enterRegModalEmail.show();
 // enterRegModalPhone.show();
 // passRepairModalEmail.show();
 // passRepairModalPhone.show();
 // regErrorModal.show();
 // repairDefaultModal.show();
+// repairEmailModal .show();
 // repairSuccessModal.show();
+
 
 // password show
 if(document.querySelector('.eye-ico') !== null){
