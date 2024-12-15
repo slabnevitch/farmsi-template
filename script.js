@@ -19,7 +19,7 @@ $("#enterModal, #passwordModal").on('shown.bs.modal', function () {
   $(this).find('input').eq(0).focus();
 });
 
-enterModal.show();
+// enterModal.show();
 // enterPreloaderModal.show();
 // passwordModal.show();
 // passwordFullModal.show();
