@@ -955,8 +955,7 @@
 
 		
 </section>
-			<!-- <div class="product-sticky" style="display: none;"> -->
-			<div class="product-sticky" style="position: static; display: block;">
+			<div class="product-sticky" style="display: block;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -970,7 +969,7 @@
 											<div class="product-sticky__name">Бисопролол</div>
 											<div class="product-sticky__info">2,5 мг 30 шт. таблетки, покрытые пленочной оболочкой в Ростове-на-Дону пленочной оболочкой</div>
 										</div>
-										<div class="reviews__rating reviews-rating">
+										<div class="reviews__rating reviews-rating" data-anchor="reviews">
 											<div class="reviews-rating__block">
 												<svg class="reviews-rating__icon">
 													<use xlink:href="images/sprites.svg#Star"></use>
@@ -982,14 +981,32 @@
 									</div>
 								</div>
 
-							<div class="product-sticky__actions">
+							<div class="product-sticky__actions" data-tocart-parent>
 								<div class="purchase__price js-purchase-price">от 647 ₽</div>
-								<button class="product-sticky__add-btn button button-primary js-add-cart">В корзину</button>
-								<button class="product__interaction-button product__interaction-button--like">
-				                    <svg class="">
-				                        <use xlink:href="images/sprites.svg#Heart"></use>
-				                    </svg>
-				                </button>
+								
+								<div class="product-cart__adding js-add-block">
+                                    <div class="card-adding">
+                                        <button class="button card-adding--minus js-add-minus">
+                                        	<svg width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M1.16602 1H12.8327" stroke="#ABB6CC" stroke-width="2" stroke-linecap="round"/>
+											</svg>
+                                        </button>
+                                        <div class="card-adding__wrap">
+                                            <input class="card-adding__input js-add-input" type="text" value="1">
+                                        </div>
+                                        <button class="button card-adding--plus js-add-plus">
+                                        	<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M6.99935 1.1665V12.8332M1.16602 6.99984L12.8327 6.99984" stroke="#ABB6CC" stroke-width="2" stroke-linecap="round"/>
+											</svg>
+                                        </button>
+                                    </div>
+                                </div>
+								
+								<button data-tocart-btn class="product-sticky__add-btn button button-primary js-add-cart">В корзину</button>
+
+								<button class="product-sticky__in-cart-btn button button-border">В корзине</button>
+
+								<button class="product-cart__icon product-cart__like _like" aria-label="Favorite toggle"><svg class="product-cart__like-icon"><use xlink:href="images/sprites.svg#Heart"></use></svg></button>
 							</div>
 
 							</div><!-- product-sticky__wrapper -->
@@ -998,8 +1015,8 @@
 				</div>
 			</div><!-- product-sticky -->
 
-			<!-- <div class="product-sticky" style="display: none;"> -->
-			<div class="product-sticky product-sticky--region" style="position: static; display: block;">
+			<!-- <div class="product-sticky product-sticky--region"> -->
+			<div class="product-sticky" style="display: block; position: static;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -1013,7 +1030,7 @@
 											<div class="product-sticky__name">Бисопролол</div>
 											<div class="product-sticky__info">2,5 мг 30 шт. таблетки, покрытые пленочной оболочкой в Ростове-на-Дону пленочной оболочкой</div>
 										</div>
-										<div class="reviews__rating reviews-rating">
+										<div class="reviews__rating reviews-rating" data-anchor="reviews">
 											<div class="reviews-rating__block">
 												<svg class="reviews-rating__icon">
 													<use xlink:href="images/sprites.svg#Star"></use>
@@ -1029,12 +1046,8 @@
 								<div class="purchase__price js-purchase-price">от 647 ₽</div>
 								<button class="product-sticky__region-btn button button-primary">Есть в 125 аптеках региона</button>
 
-								<button class="product-sticky__add-btn button button-secondary js-add-cart">В корзину</button>
-								<button class="product__interaction-button product__interaction-button--like">
-				                    <svg class="">
-				                        <use xlink:href="images/sprites.svg#Heart"></use>
-				                    </svg>
-				                </button>
+								<button data-modal="productSearchModal" class="product-sticky__add-btn button button-secondary">В корзину</button>
+								<button class="product-cart__icon product-cart__like _like" aria-label="Favorite toggle"><svg class="product-cart__like-icon"><use xlink:href="images/sprites.svg#Heart"></use></svg></button>
 							</div>
 
 							</div><!-- product-sticky__wrapper -->
@@ -1043,8 +1056,8 @@
 				</div>
 			</div><!-- product-sticky -->
 
-			<!-- <div class="product-sticky" style="display: none;"> -->
-			<div class="product-sticky product-sticky--region" style="position: static; display: block;">
+			<!-- <div class="product-sticky product-sticky--region"> -->
+			<div class="product-sticky" style="display: block; position: static;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -1058,7 +1071,7 @@
 											<div class="product-sticky__name">Бисопролол</div>
 											<div class="product-sticky__info">2,5 мг 30 шт. таблетки, покрытые пленочной оболочкой в Ростове-на-Дону пленочной оболочкой</div>
 										</div>
-										<div class="reviews__rating reviews-rating">
+										<div class="reviews__rating reviews-rating" data-anchor="reviews">
 											<div class="reviews-rating__block">
 												<svg class="reviews-rating__icon">
 													<use xlink:href="images/sprites.svg#Star"></use>
@@ -1080,11 +1093,7 @@
 									<label for="product-sticky-switcher-1" class="switch__label">Сообщить о поступлении</label>
 									<input id="product-sticky-switcher-1" data-toast-switcher type="checkbox" class="switch">
 								</div>
-								<button class="product__interaction-button product__interaction-button--like">
-				                    <svg class="">
-				                        <use xlink:href="images/sprites.svg#Heart"></use>
-				                    </svg>
-				                </button>
+								<button class="product-cart__icon product-cart__like _like" aria-label="Favorite toggle"><svg class="product-cart__like-icon"><use xlink:href="images/sprites.svg#Heart"></use></svg></button>
 							</div>
 
 							</div><!-- product-sticky__wrapper -->
@@ -1093,8 +1102,8 @@
 				</div>
 			</div><!-- product-sticky -->
 
-			<!-- <div class="product-sticky" style="display: none;"> -->
-			<div class="product-sticky product-sticky--region" style="position: static; display: block;">
+			<!-- <div class="product-sticky product-sticky--region"> -->
+			<div class="product-sticky" style="display: block; position: static;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -1129,11 +1138,7 @@
 									<label for="product-sticky-switcher-2" class="switch__label">Сообщить о поступлении</label>
 									<input id="product-sticky-switcher-2" data-toast-switcher type="checkbox" class="switch">
 								</div>
-								<button class="product__interaction-button product__interaction-button--like">
-				                    <svg class="">
-				                        <use xlink:href="images/sprites.svg#Heart"></use>
-				                    </svg>
-				                </button>
+								<button class="product-cart__icon product-cart__like _like" aria-label="Favorite toggle"><svg class="product-cart__like-icon"><use xlink:href="images/sprites.svg#Heart"></use></svg></button>
 							</div>
 
 							</div><!-- product-sticky__wrapper -->
@@ -1142,8 +1147,8 @@
 				</div>
 			</div><!-- product-sticky -->
 
-			<!-- <div class="product-sticky" style="display: none;"> -->
-			<div class="product-sticky product-sticky--region" style="position: static; display: block;">
+			<!-- <div class="product-sticky product-sticky--region"> -->
+			<div class="product-sticky" style="display: block; position: static;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -1174,11 +1179,7 @@
 									<label for="product-sticky-switcher-3" class="switch__label">Сообщить о поступлении</label>
 									<input id="product-sticky-switcher-3" data-toast-switcher type="checkbox" class="switch">
 								</div>
-								<button class="product__interaction-button product__interaction-button--like">
-				                    <svg class="">
-				                        <use xlink:href="images/sprites.svg#Heart"></use>
-				                    </svg>
-				                </button>
+								<button class="product-cart__icon product-cart__like _like" aria-label="Favorite toggle"><svg class="product-cart__like-icon"><use xlink:href="images/sprites.svg#Heart"></use></svg></button>
 							</div>
 
 							</div><!-- product-sticky__wrapper -->
@@ -1187,8 +1188,8 @@
 				</div>
 			</div><!-- product-sticky -->
 		 
-		 	<!-- <div class="product-sticky" style="display: none;"> -->
-			<div class="product-sticky product-sticky--region">
+			<!-- <div class="product-sticky product-sticky--region"> -->
+		 	<div class="product-sticky" style="display: block; position: static;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -1216,17 +1217,13 @@
 							<div class="product-sticky__actions">
 								<div class="product-sticky__presence">Нет в наличии</div>
 								
-								<button class="product-sticky__region-btn button button-primary">Аналоги от 150 ₽</button>
+								<a href="#" class="product-sticky__region-btn button button-primary">Аналоги от 150 ₽</a>
 								
 								<div class="switcher">
 									<label for="product-sticky-switcher-4" class="switch__label">Сообщить о поступлении</label>
 									<input id="product-sticky-switcher-4" data-toast-switcher type="checkbox" class="switch">
 								</div>
-								<button class="product__interaction-button product__interaction-button--like">
-				                    <svg class="">
-				                        <use xlink:href="images/sprites.svg#Heart"></use>
-				                    </svg>
-				                </button>
+								<button class="product-cart__icon product-cart__like _like" aria-label="Favorite toggle"><svg class="product-cart__like-icon"><use xlink:href="images/sprites.svg#Heart"></use></svg></button>
 							</div>
 
 							</div><!-- product-sticky__wrapper -->
@@ -1236,7 +1233,7 @@
 			</div><!-- product-sticky -->
 
 			<!-- <div class="product-sticky"> -->
-			<div class="product-sticky" style="position: static; display: block;">
+			<div class="product-sticky" style="display: block; position: static;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -1261,28 +1258,32 @@
 									</div>
 								</div>
 
-							<div class="product-sticky__actions">
+							<div class="product-sticky__actions" data-tocart-parent>
 								<div class="purchase__price js-purchase-price">от 647 ₽</div>
 								
 								<div class="product-cart__adding js-add-block">
                                     <div class="card-adding">
-                                        <button class="button card-adding--minus js-add-minus"></button>
+                                        <button class="button card-adding--minus js-add-minus">
+											<svg width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M1.16602 1H12.8327" stroke="#ABB6CC" stroke-width="2" stroke-linecap="round"/>
+											</svg>
+                                        </button>
                                         <div class="card-adding__wrap">
-                                            <input class="card-adding__input js-add-input" type="text" disabled="disabled" value="1">
+                                            <input class="card-adding__input js-add-input" type="text" value="1">
                                         </div>
-                                        <button class="button card-adding--plus js-add-plus"></button>
+                                        <button class="button card-adding--plus js-add-plus">
+                                        	<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        		<path d="M6.99935 1.1665V12.8332M1.16602 6.99984L12.8327 6.99984" stroke="#ABB6CC" stroke-width="2" stroke-linecap="round"/>
+                                        	</svg>
+                                        </button>
                                     </div>
                                 </div>
 								
-								<button class="product-sticky__add-btn button button-primary js-add-cart">В корзину</button>
+								<button data-tocart-btn class="product-sticky__add-btn button button-primary js-add-cart">В корзину</button>
 
 								<button class="product-sticky__in-cart-btn button button-border">В корзине</button>
 
-								<button class="product__interaction-button product__interaction-button--like">
-				                    <svg class="">
-				                        <use xlink:href="images/sprites.svg#Heart"></use>
-				                    </svg>
-				                </button>
+								<button class="product-cart__icon product-cart__like _like" aria-label="Favorite toggle"><svg class="product-cart__like-icon"><use xlink:href="images/sprites.svg#Heart"></use></svg></button>
 							</div>
 
 							</div><!-- product-sticky__wrapper -->
