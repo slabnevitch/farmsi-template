@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 	<script src="https://api-maps.yandex.ru/2.1/?apikey=b603dd45-d3d4-4cc6-bc5e-3985d0624e53&lang=ru_RU"></script>
-<script defer src="main.405e0e17662cb38ea241.js"></script></head>
+<script defer src="main.39c6b3e23fabad24cc6c.js"></script></head>
 
 <body>
 <div class="site">
@@ -568,7 +568,7 @@
 				                        <use xlink:href="images/sprites.svg#Heart"></use>
 				                    </svg>
 				                </button>
-								<button class="cart__button button-share" data-dropdown-id="1">
+								<button class="cart__button button-share" data-dropdown-id="1" data-bs-toggle="tooltip" data-bs-original-title="Поделиться">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 25 24" fill="none">
 										<path d="M9.5 12C9.5 13.3807 8.38071 14.5 7 14.5C5.61929 14.5 4.5 13.3807 4.5 12C4.5 10.6193 5.61929 9.5 7 9.5C8.38071 9.5 9.5 10.6193 9.5 12Z" stroke="#ABB6CC" stroke-width="2"></path>
 										<path d="M14.5 6.5L9.5 10" stroke="#ABB6CC" stroke-width="2" stroke-linecap="round"></path>
@@ -582,7 +582,7 @@
 						</div>
 					</div>
 					<div class="product-main__inner">
-						<div class="product-main__content">
+						<div class="product-main__content" style="height: 2000px;">
 							<div class="product-view">
 								<div class="product-view__main product-view__main--plug">
 									<div class="product-view__plug">
@@ -655,7 +655,7 @@
 									<div class="product-chars__keyname">Производитель</div>
 									<div class="product-chars__keydots"></div>
 								</div>
-								<div class="product-chars__val">
+								<div class="product-chars__val" style="overflow-x: hidden;">
 									 <select name="producer" class="variant-select">
 									      <option value="0" selected data-value="от 647 ₽">Abbott длинное название</option>
 									      <option value="1" data-value="Нет в наличии" data-not-available>Berlin-Chemie/Menarini Group</option>
@@ -741,46 +741,54 @@
 	
 </div>
 	<div class="product-main__bar bar-product-main">
-		<div class="bar-product-main__wrapper">
+		<div class="bar-product-main__wrapper bar-product-main__wrapper--sticky">
 			<div class="purchase">
-		    	<div class="purchase__location location-purchase">
-		    		<div class="location-purchase__text">Цены <span>в </span></div>
-		    		<button class="location-purchase__button js-change-location">
-		    			<span class="js-city-choosen-city">Санкт-Петербурге и области</span>
-		    			<span class="location-purchase__arrow">
-			    			<svg class="collapse-button__arrow">
-								<use xlink:href="images/sprites.svg#collarrow"></use>
-							</svg>
-		    			</span>
-		    		</button>
-		    	</div>
-		    	<div class="purchase__details">
-		    		<div class="purchase__price-block">
-			    		<div class="purchase__price js-purchase-price">от 647 ₽</div>
-			    		<div class="purchase__availability">в 2347 аптеках</div>
-		    		</div>
-		    		
-		    		<div class="purchase__buttons">
-	                    <button class="purchase__to-cart-btn button button-primary js-add-cart" type="button">В
+	            <div class="purchase__location location-purchase">
+	                <div class="location-purchase__text">Цены <span>в </span></div>
+	                <button class="location-purchase__button js-change-location">
+	                    <span class="js-city-choosen-city">Санкт-Петербурге и области</span>
+	                    <span class="location-purchase__arrow">
+	                        <svg class="collapse-button__arrow">
+	                            <use xlink:href="images/sprites.svg#collarrow"></use>
+	                        </svg>
+	                    </span>
+	                </button>
+	            </div>
+	            <div class="purchase__details">
+	                <div class="purchase__price-block">
+	                    <div class="purchase__price js-purchase-price">от 647 ₽</div>
+	                    <div class="purchase__availability">в 2347 аптеках</div>
+	                </div>
+	                
+	                <div class="purchase__buttons" data-tocart-parent>
+	                    <button data-tocart-btn id="purchase-plate-trigger" class="purchase__to-cart-btn button button-primary js-add-cart" type="button">В
 	                        корзину
 	                    </button>
 	                    <div class="purchase__adding">
-		                    <div class="product-cart__adding js-add-block">
+	                        <div class="product-cart__adding js-add-block">
 	                            <div class="card-adding">
-	                                <button class="button card-adding--minus js-add-minus"></button>
+	                                <button class="button card-adding--minus js-add-minus">
+	                                    <svg width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+	                                        <path d="M1.16602 1H12.8327" stroke="#ABB6CC" stroke-width="2" stroke-linecap="round"></path>
+	                                    </svg>
+	                                </button>
 	                                <div class="card-adding__wrap">
-	                                    <input class="card-adding__input js-add-input" type="text" disabled="disabled" value="1">
+	                                    <input class="card-adding__input js-add-input" type="text"  value="1">
 	                                </div>
-	                                <button class="button card-adding--plus js-add-plus"></button>
+	                                <button class="button card-adding--plus js-add-plus">
+	                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+	                                        <path d="M6.99935 1.1665V12.8332M1.16602 6.99984L12.8327 6.99984" stroke="#ABB6CC" stroke-width="2" stroke-linecap="round"></path>
+	                                    </svg>
+	                                </button>
 	                            </div>
 	                        </div>
-                            <button class="purchase__in-cart-btn button button-border">В корзине</button>
-                    	</div>
-		    		</div>
-		    		<button class="purchase__button js-select-all-button button button-secondary">Купить в 1 клик
-		    		</button>
-		    	</div>    
-			</div><!-- purchase -->
+	                        <button id="purchase-plate-trigger-callback" class="purchase__in-cart-btn button button-border">В корзине</button>
+	                    </div>
+	                </div>
+	                <button class="purchase__button js-select-all-button button button-secondary">Купить в 1 клик
+	                </button>
+	            </div>    
+	        </div><!-- purchase -->
 
 			<div class="purchase">
 				<div class="purchase__info">
@@ -896,7 +904,7 @@
 		
 </section>
 	<!-- <div class="product-sticky"> -->
-			<div class="product-sticky" style="display: block;">
+			<div class="product-sticky" style="position: static;display: block;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -943,7 +951,7 @@
                                     </div>
                                 </div>
 								
-								<button data-tocart-btn class="product-sticky__add-btn button button-primary js-add-cart">В корзину</button>
+								<button data-tocart-btn class="product-sticky__add-btn button button-primary js-add-cart" style="margin-left: 24px;">В корзину</button>
 
 								<button class="product-sticky__in-cart-btn button button-border">В корзине</button>
 
@@ -957,7 +965,7 @@
 			</div><!-- product-sticky -->
 
 			<!-- <div class="product-sticky product-sticky--region"> -->
-			<div class="product-sticky" style="position: static; display: block;">
+			<div class="product-sticky" style="position: static;display: block;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -998,7 +1006,7 @@
 			</div><!-- product-sticky -->
 
 			<!-- <div class="product-sticky product-sticky--region"> -->
-			<div class="product-sticky" style="position: static; display: block;">
+			<div class="product-sticky" style="position: static;display: block;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -1044,7 +1052,7 @@
 			</div><!-- product-sticky -->
 
 			<!-- <div class="product-sticky product-sticky--region"> -->
-			<div class="product-sticky" style="position: static; display: block;">
+			<div class="product-sticky" style="position: static;display: block;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -1089,7 +1097,7 @@
 			</div><!-- product-sticky -->
 
 			<!-- <div class="product-sticky product-sticky--region"> -->
-			<div class="product-sticky" style="position: static; display: block;">
+			<div class="product-sticky" style="position: static;display: block;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -1130,7 +1138,7 @@
 			</div><!-- product-sticky -->
 		 
 			<!-- <div class="product-sticky product-sticky--region"> -->
-		 	<div class="product-sticky" style="position: static; display: block;">
+		 	<div class="product-sticky" style="position: static;display: block;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -1160,7 +1168,7 @@
 								
 								<a href="#" class="product-sticky__region-btn button button-primary">Аналоги от 150 ₽</a>
 								
-								<div class="switcher">
+								<div class="switcher" style="margin-left: 16px;">
 									<label for="product-sticky-switcher-4" class="switch__label">Сообщить о поступлении</label>
 									<input id="product-sticky-switcher-4" data-toast-switcher type="checkbox" class="switch">
 								</div>
@@ -1174,7 +1182,7 @@
 			</div><!-- product-sticky -->
 
 			<!-- <div class="product-sticky"> -->
-			<div class="product-sticky" style="position: static; display: block;">
+			<div class="product-sticky" style="position: static;display: block;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
@@ -1220,7 +1228,7 @@
                                     </div>
                                 </div>
 								
-								<button data-tocart-btn class="product-sticky__add-btn button button-primary js-add-cart">В корзину</button>
+								<button data-tocart-btn class="product-sticky__add-btn button button-primary js-add-cart" style="margin-left: 24px;">В корзину</button>
 
 								<button class="product-sticky__in-cart-btn button button-border">В корзине</button>
 
@@ -2265,7 +2273,7 @@
 						<div class="swiper-wrapper">
 							<div class="swiper-slide cert-slider__slide">
 								<a class="slider-block" href="images/certeficates/certeficate (1).png"
-								   data-fancybox="cert" data-fancybox-layout="product-view" data-segment-control="false" data-caption="Бисопролол сертификат 1">
+								   data-fancybox="cert" data-fancybox-layout="product-view" data-segment-control="false">
 									<img class="slider-block__image" src="images/certeficates/certeficate (1).png"
 										 alt="Logo_Zdrav"
 										 loading="lazy" width="196" height="275.59">
@@ -2274,7 +2282,7 @@
 							</div>
 							<div class="swiper-slide cert-slider__slide">
 								<a class="slider-block" href="images/certeficates/certeficate (2).png"
-								   data-fancybox="cert" data-fancybox-layout="product-view" data-segment-control="false" data-caption="Бисопролол сертификат 2">
+								   data-fancybox="cert" data-fancybox-layout="product-view" data-segment-control="false">
 									<img class="slider-block__image" src="images/certeficates/certeficate (2).png"
 										 alt="Logo_Zdrav"
 										 loading="lazy" width="196" height="275.59">
@@ -2283,7 +2291,7 @@
 							</div>
 							<div class="swiper-slide cert-slider__slide">
 								<a class="slider-block" href="images/certeficates/certeficate (3).png"
-								   data-fancybox="cert" data-fancybox-layout="product-view" data-segment-control="false" data-caption="Бисопролол сертификат 3">
+								   data-fancybox="cert" data-fancybox-layout="product-view" data-segment-control="false">
 									<img class="slider-block__image" src="images/certeficates/certeficate (3).png"
 										 alt="Logo_Zdrav"
 										 loading="lazy" width="196" height="275.59">
@@ -2292,7 +2300,7 @@
 							</div>
 							<div class="swiper-slide cert-slider__slide">
 								<a class="slider-block" href="images/certeficates/certeficate (4).png"
-								   data-fancybox="cert" data-fancybox-layout="product-view" data-segment-control="false" data-caption="Бисопролол сертификат 4">
+								   data-fancybox="cert" data-fancybox-layout="product-view" data-segment-control="false">
 									<img class="slider-block__image" src="images/certeficates/certeficate (4).png"
 										 alt="Logo_Zdrav"
 										 loading="lazy" width="196" height="275.59">
@@ -2301,7 +2309,7 @@
 							</div>
 							<div class="swiper-slide cert-slider__slide">
 								<a class="slider-block" href="images/certeficates/certeficate (5).png"
-								   data-fancybox="cert" data-fancybox-layout="product-view" data-segment-control="false" data-caption="Бисопролол сертификат 5">
+								   data-fancybox="cert" data-fancybox-layout="product-view" data-segment-control="false">
 									<img class="slider-block__image" src="images/certeficates/certeficate (5).png"
 										 alt="Logo_Zdrav"
 										 loading="lazy" width="196" height="275.59">
@@ -2309,14 +2317,14 @@
 								<div class="swiper-lazy-preloader"></div>
 							</div>
 							<div class="swiper-slide cert-slider__slide">
-								<a class="slider-block" data-fancybox-layout="product-view" data-segment-control="false" href="images/certeficates/certeficate (6).png" data-fancybox="cert" data-segment-control="false" data-caption="Бисопролол сертификат 6">
+								<a class="slider-block" data-fancybox-layout="product-view" data-segment-control="false" href="images/certeficates/certeficate (6).png" data-fancybox="cert" data-segment-control="false">
 									<img class="slider-block__image" src="images/certeficates/certeficate (6).png"  alt="Logo_Zdrav" loading="lazy" width="196" height="275.59">
 								</a>
 								<div class="swiper-lazy-preloader"></div>
 							</div>
 							<div class="swiper-slide cert-slider__slide">
 								<a class="slider-block" href="images/certeficates/certeficate (1).png"
-								   data-fancybox="cert" data-fancybox-layout="product-view" data-segment-control="false" data-caption="Бисопролол сертификат 7">
+								   data-fancybox="cert" data-fancybox-layout="product-view" data-segment-control="false">
 									<img class="slider-block__image" src="images/certeficates/certeficate (1).png"
 										 alt="Logo_Zdrav"
 										 loading="lazy" width="196" height="275.59">
@@ -2325,7 +2333,7 @@
 							</div>
 							<div class="swiper-slide cert-slider__slide">
 								<a class="slider-block" data-fancybox-layout="product-view" data-segment-control="false" href="images/certeficates/certeficate (2).png"
-								   data-fancybox="cert" data-caption="Бисопролол сертификат 8">
+								   data-fancybox="cert">
 									<img class="slider-block__image" src="images/certeficates/certeficate (2).png"
 										 alt="Logo_Zdrav"
 										 loading="lazy" width="196" height="275.59">
@@ -2334,7 +2342,7 @@
 							</div>
 							<div class="swiper-slide cert-slider__slide">
 								<a class="slider-block" data-fancybox-layout="product-view" data-segment-control="false" href="images/certeficates/certeficate (3).png"
-								   data-fancybox="cert" data-caption="Бисопролол сертификат 9">
+								   data-fancybox="cert">
 									<img class="slider-block__image" src="images/certeficates/certeficate (3).png"
 										 alt="Logo_Zdrav"
 										 loading="lazy" width="196" height="275.59">
@@ -5866,7 +5874,7 @@
 	</div>
 
 <div class="modal show" id="productSearchModal" tabindex="-1" aria-modal="true" role="dialog" style="">
-    <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-dialog  modal-dialog-centered" style="max-width: 416px;">
         <div class="modal-content">
             <div class="modal-header">
                 <h3 class="modal__title">Товара нет в&nbsp;выбранном городе,<br> но&nbsp;есть в&nbsp;других аптеках региона</h3>
