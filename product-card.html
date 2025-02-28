@@ -25,7 +25,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
 />
 	<script src="https://api-maps.yandex.ru/2.1/?apikey=b603dd45-d3d4-4cc6-bc5e-3985d0624e53&lang=ru_RU"></script>
-<script defer src="main.d1db1ece2bfeda248135.js"></script></head>
+<script defer src="main.478e239a733a8100ad5c.js"></script></head>
 
 <body>
 <div class="site">
@@ -567,7 +567,7 @@
 							<div class="header-product-main__buttons">
 									<button class="product-cart__icon product-cart__like _like" aria-label="Favorite toggle"><svg class="product-cart__like-icon"><use xlink:href="images/sprites.svg#Heart"></use></svg></button>
 
-								<button class="cart__button button-share" data-dropdown-id="1" data-bs-toggle="tooltip" data-bs-custom-class="share-tooltip" data-bs-original-title="Поделиться">
+								<button class="cart__button button-share" data-dropdown-id="1" title="Поделиться">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 25 24" fill="none">
 										<path d="M9.5 12C9.5 13.3807 8.38071 14.5 7 14.5C5.61929 14.5 4.5 13.3807 4.5 12C4.5 10.6193 5.61929 9.5 7 9.5C8.38071 9.5 9.5 10.6193 9.5 12Z" stroke="#ABB6CC" stroke-width="2"></path>
 										<path d="M14.5 6.5L9.5 10" stroke="#ABB6CC" stroke-width="2" stroke-linecap="round"></path>
@@ -1147,7 +1147,7 @@
 					</div>
 		    		
 		    		<div class="purchase__buttons">
-	                    <button class="purchase__to-cart-btn button button-primary js-add-cart" type="button">Есть в 125 аптеках региона</button>
+	                    <a href="#" class="purchase__to-cart-btn button button-primary" type="button">Есть в 125 аптеках региона</a>
 
 	                    <button data-modal="productSearchModal" class="purchase__button js-select-all-button button button-secondary">В корзину</button>
 		    		</div>
@@ -5411,7 +5411,7 @@
 		  </div>
 		  <div class="modal__body">
 			<div class="password-repair__note">
-			  <div class="password-repair__row">На почту <span class="password-modal__value" style="margin-right: 0; font-size: 14px;">ivanovalexey@gmail.com</span> будет отправлено письмо</div>
+			  <div class="password-repair__row">На почту <span class="password-modal__value" style="margin-right: 0; font-size: 14px;">ivanovalexey@gmail.com</span> отправлено письмо</div>
 			  <div class="password-repair__row">Подтвердите, пожалуйста, свою почту, чтобы мы могли отправить уведомление  о снижении цены</div>
 			  <div class="password-modal__message">Если письма нет во входящих, проверьте папку «Спам»</div>
 			</div>
@@ -5584,7 +5584,7 @@
 			</div>
 			<div class="enter-modal__group">
               <div class="enter-modal__group-inner">
-                <input readonly autocomplete="off" value="ivanovalexey@gmail.com" type="text" name="mail" placeholder="Email" class="enter-modal__input enter-modal__input--fill enter-modal__input--success">
+                <input readonly autocomplete="off" value="ivanovalexey@gmail.com" type="text" name="mail" placeholder="Email" class="enter-modal__input enter-modal__input--fill enter-modal__input--success" style="border-color: #F2F2F5">
                 <button type="button" class="modal__success-mark" data-bs-toggle="tooltip" data-bs-container="[data-tooltip-parent-success]" data-bs-trigger="hover" data-bs-placement="top" data-bs-fallbackPlacements="['top','top','top','top']" data-bs-offset="0,0" data-bs-custom-class="info-tooltip" data-bs-title="Почта подтверждена">
 	            	<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 	            		<g id="ic20-check">
@@ -5631,7 +5631,7 @@
 			</div>
 			<div class="enter-modal__group">
               <div class="enter-modal__group-inner">
-                <input readonly autocomplete="off" value="ivanovalexey@gmail.com" type="text" name="mail" placeholder="Email" class="enter-modal__input enter-modal__input--fill">
+                <input readonly autocomplete="off" value="ivanovalexey@gmail.com" type="text" name="mail" placeholder="Email" class="enter-modal__input enter-modal__input--fill" style="border-color: #F2F2F5;">
 
                 <button type="button" class="modal__error-mark" data-bs-toggle="tooltip" data-bs-container="[data-tooltip-parent-error]" data-bs-trigger="hover" data-bs-placement="top" data-bs-fallbackPlacements="['top']" data-bs-offset="0,0" data-bs-custom-class="modal-mark-tooltip" data-bs-title="Почта не подтверждена">
 	            	<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -5643,7 +5643,7 @@
                 <label class="enter-modal__placeholder">Email</label>
               </div>
             </div>
-            <button data-bs-dismiss="modal" data-modal="emailConfirmationModal" type="button" class="button button-primary enter-modal__button">Сообщить</button>
+            <button data-bs-dismiss="modal" data-modal="emailConfirmationModalNotAuth" type="button" class="button button-primary enter-modal__button">Сообщить</button>
             <div class="modal__policy policy-modal">
         	<p class="policy-modal__note">Нажимая кнопку «Сообщить», я соглашаюсь с <a href="#">Пользовательским соглашением</a> и <a href="#">Политикой обработки персональных данных</a></p>
         		<div class="policy-modal__block">
@@ -5799,7 +5799,7 @@
 		  	<div class="enter-modal__group enter-modal__group--mb-32" data-tooltip-parent-notauth>
               <div class="enter-modal__group-inner">
               	<div class="enter-modal__group-inner">
-              		<input readonly="" autocomplete="off" value="ivanovalexey@gmail.com" type="text" name="mail" placeholder="Email" class="enter-modal__input enter-modal__input--fill">
+              		<input readonly="" autocomplete="off" value="ivanovalexey@gmail.com" type="text" name="mail" placeholder="Email" class="enter-modal__input enter-modal__input--fill" style="border-color: #F2F2F5;">
 
               		<button type="button" class="modal__error-mark" data-bs-toggle="tooltip" data-bs-container="[data-tooltip-parent-notauth]" data-bs-trigger="hover" data-bs-placement="top" data-bs-fallbackplacements="['top']" data-bs-offset="0,0" data-bs-custom-class="modal-mark-tooltip" data-bs-title="Почта не подтверждена" data-bs-original-title="" title="">
               			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -6223,8 +6223,8 @@
 
 		  	<div class="enter-modal__group enter-modal__group--mb-32">
               <div class="enter-modal__group-inner">
-                <input readonly="" autocomplete="off" value="ivanovalexey@gmail.com" type="text" name="mail" placeholder="Email" class="enter-modal__input enter-modal__input--fill enter-modal__input--success">
-                <button type="button" class="modal__success-mark" data-bs-toggle="tooltip" data-bs-container="[data-tooltip-parent-success]" data-bs-trigger="hover" data-bs-placement="top" data-bs-fallbackplacements="['top','top','top','top']" data-bs-offset="0,0" data-bs-custom-class="info-tooltip" data-bs-title="Почта подтверждена" data-bs-original-title="" title="">
+                <input readonly="" autocomplete="off" value="ivanovalexey@gmail.com" type="text" name="mail" placeholder="Email" class="enter-modal__input enter-modal__input--fill enter-modal__input--success" style="border-color: #F2F2F5;">
+                <button type="button" class="modal__success-mark" data-bs-toggle="tooltip" data-bs-container="[data-inaccuracy-modal-auth-succes]" data-bs-trigger="hover" data-bs-placement="top" data-bs-fallbackplacements="['top','top','top','top']" data-bs-offset="0,0" data-bs-custom-class="info-tooltip" data-bs-title="Почта подтверждена" data-bs-original-title="" title="">
 	            	<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 	            		<g id="ic20-check">
 	            			<path id="Icon" fill-rule="evenodd" clip-rule="evenodd" d="M3.70711 9.2929C3.31658 8.90238 2.68342 8.90238 2.29289 9.2929C1.90237 9.68343 1.90237 10.3166 2.29289 10.7071L7.29289 15.7071C7.69802 16.1122 8.36002 16.0948 8.74329 15.669L17.7433 5.66897C18.1128 5.25846 18.0795 4.62617 17.669 4.25671C17.2585 3.88726 16.6262 3.92053 16.2567 4.33104L7.96181 13.5476L3.70711 9.2929Z" fill="#00C293"></path>
