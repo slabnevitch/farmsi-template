@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css">
     <script src="https://api-maps.yandex.ru/2.1/?apikey=b603dd45-d3d4-4cc6-bc5e-3985d0624e53&amp;lang=ru_RU"></script>
-  <script defer src="main.a815ed93bd20e0e80576.js"></script></head>
+  <script defer src="main.058da938a57453bed1ed.js"></script></head>
   <body>
     <div class="site">
       <!-- Header Start-->
@@ -47,7 +47,7 @@
       </div>
       <!-- Header Middle-->
       <div class="header-nav">
-        <div class="header__middle">
+        <div class="header__middle header__fixed">
           <div class="container" style="position: relative">
             <div class="city-popup js-city-popup">
               <button class="city-change__close" type="button" onclick="$('.js-city-popup').fadeOut(300);">
@@ -379,7 +379,7 @@
                     </ul>
                   </div>
                 </li>
-                <li class="breadcrumb-item">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy;</li>
+                <li class="breadcrumb-item">Мочегонные</li>
               </ol>
             </nav>
           </div>
@@ -419,59 +419,25 @@
                 <div class="listing__body">
                                     <aside class="listing__sidebar">
                                       <form class="listing__filter filter-listing" action="#">
-                                        <div class="filter-listing__cat collapsed" data-collapse-parent>
+                                        <div class="filter-listing__cat" data-collapse-parent>
                                           <div class="filter-listing__header">
                                             <div class="filter-listing__title">Категория</div>
                                           </div>
-                                          <div class="filter-listing__cat-collapse" data-collapse-block>
-                                            <ul class="filter-listing__list filter-listing__list--deep">
-                                              <li class="filter-listing__item"><a class="filter-listing__link back">Лекарственные средства</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><span class="filter-listing__link active">Гомеопатия</span>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для дыхательной системы</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для желудочно-кишечного тракта</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для женского здоровья</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для кожи и волос</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для ЛОР-органов</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для мужского здоровья</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для нервной системы</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для повышения иммунитета</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для похудения</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для сердечно-сосудистой системы</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для суставов и позвоночника</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Общеукрепляющие</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">От аллергии</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">От варикоза</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">От вредных привычек</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">От геморроя</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">От головокружения и укачивания</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">При нарушениях обмена веществ</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">При урологических заболеваниях</a>
-                                              </li>
-                                              <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Противовоспалительные</a>
-                                              </li>
-                                            </ul>
-                                          </div>
-                                          <button class="collapse-button collapse-button--collapsed" type="button"><span class="collapse-button__expand">Еще 15</span><span class="collapse-button__collapse">Свернуть</span>
+                                          <ul class="filter-listing__list filter-listing__list--deep">
+                                            <li class="filter-listing__item"><a class="filter-listing__link back">Лекарственные средства</a>
+                                            </li>
+                                            <li class="filter-listing__item filter-listing__item--deep"><span class="filter-listing__link active">Гомеопатия</span>
+                                            </li>
+                                            <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для дыхательной системы</a>
+                                            </li>
+                                            <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для желудочно-кишечного тракта</a>
+                                            </li>
+                                            <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для женского здоровья</a>
+                                            </li>
+                                            <li class="filter-listing__item filter-listing__item--deep"><a class="filter-listing__link" href="#">Для кожи и волос</a>
+                                            </li>
+                                          </ul>
+                                          <button class="collapse-button collapse-button--in-filter collapse-button--collapsed" type="button" data-collapse-loading><span class="collapse-button__expand">Еще 15</span><span class="collapse-button__collapse">Свернуть</span>
                                             <svg class="collapse-button__arrow">
                                               <use xlink:href="images/sprites.svg#collarrow"></use>
                                             </svg>
@@ -499,7 +465,7 @@
                                                     <div class="range-top">
                                                       <div class="range-top__column">
                                                         <div class="enter-modal__group-inner enter-modal__group-inner--in-filter">
-                                                          <input class="enter-modal__input accordion-item__input" id="minval" type="text" name="minval" min="4554" max="5000" placeholder="От 4554">
+                                                          <input class="enter-modal__input accordion-item__input" id="minval" type="text" name="minval" min="4554" max="5000" placeholder="от 4554" data-id="range-price-min">
                                                           <button class="modal__clear modal__clear--in-filter" type="button">
                                                             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                               <path d="M15.332 4.66663L4.66536 15.3333" stroke="#ABB6CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -510,7 +476,7 @@
                                                       </div>
                                                       <div class="range-top__column">
                                                         <div class="enter-modal__group-inner enter-modal__group-inner--in-filter">
-                                                          <input class="enter-modal__input accordion-item__input" id="maxval" type="text" name="maxval" min="4554" max="5000" placeholder="До 5000">
+                                                          <input class="enter-modal__input accordion-item__input" id="maxval" type="text" name="maxval" min="4554" max="5000" placeholder="до 5000" data-id="range-price-max">
                                                           <button class="modal__clear modal__clear--in-filter" type="button">
                                                             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                               <path d="M15.332 4.66663L4.66536 15.3333" stroke="#ABB6CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -524,12 +490,12 @@
                                                   </div>
                                                 </div>
                                               </div>
-                                              <div class="accordion-item listing-accordion__item" style="display:none;"></div>
                                             </div>
+                                            <div class="accordion-item listing-accordion__item" style="display:none;"></div>
                                           </div>
-                                          <div class="switcher filter-listing__switcher">
+                                          <div class="switcher filter-listing__switcher" data-switcher-disabled><span class="switcher__tooltip-container" data-bs-toggle="tooltip" data-bs-original-title="Для отфильтрованных товаров забрать сегодня недоступно" data-bs-trigger="click" data-bs-placement="left" data-bs-offset="0,10" data-bs-custom-class="switcher-disabled-tooltip"></span>
+                                            <input class="switch filter-listing__checkbox" id="filter-switcher-1" type="checkbox" data-id="get-now" disabled>
                                             <label class="switch__label" for="filter-switcher-1">Забрать сегодня</label>
-                                            <input class="switch filter-listing__checkbox" id="filter-switcher-1" type="checkbox">
                                           </div>
                                           <div class="accordion listing__accordion listing-accordion">
                                             <div class="accordion-item listing-accordion__item">
@@ -537,75 +503,43 @@
                                                 <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-1" aria-expanded="true" aria-controls="1">Назначение</button>
                                               </div>
                                               <div class="accordion-collapse collapse show" id="panel-1">
-                                                <div class="accordion-body collapsed" data-collapse-parent>
-                                                  <div class="accordion-item__collapse" data-collapse-block>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="listing-check-appointment" disabled data-id="appointment-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Для потенции</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" checked name="listing-check-appointment" data-id="appointment-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Обезболивающее</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="listing-check-appointment" disabled data-id="appointment-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">От аллергии</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="listing-check-appointment" disabled data-id="appointment-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">От ангины</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="listing-check-appointment" disabled data-id="appointment-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">От артроза и артрита</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="listing-check-appointment" disabled data-id="appointment-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Для потенции</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" checked name="listing-check-appointment" data-id="appointment-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Обезболивающее</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="listing-check-appointment" disabled data-id="appointment-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">От аллергии</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="listing-check-appointment" disabled data-id="appointment-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">От ангины</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="listing-check-appointment" disabled data-id="appointment-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">От артроза и артрита</span>
-                                                    </label>
-                                                  </div>
-                                                  <button class="collapse-button collapse-button--collapsed" type="button"><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
-                                                    <svg class="collapse-button__arrow">
-                                                      <use xlink:href="images/sprites.svg#collarrow"></use>
-                                                    </svg>
-                                                  </button>
+                                                <div class="accordion-body">
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="listing-check-appointment" disabled data-id="appointment-0"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Для потенции</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="listing-check-appointment" data-id="appointment-1"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Обезболивающее</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="listing-check-appointment" disabled data-id="appointment-2"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">От аллергии</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="listing-check-appointment" disabled data-id="appointment-3"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">От ангины</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="listing-check-appointment" disabled data-id="appointment-4"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">От артроза и артрита</span>
+                                                  </label>
                                                 </div>
+                                                <button class="collapse-button collapse-button collapse-button--in-filter collapse-button--collapsed" type="button" data-collapse-loading><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
+                                                  <svg class="collapse-button__arrow">
+                                                    <use xlink:href="images/sprites.svg#collarrow"></use>
+                                                  </svg>
+                                                </button>
                                               </div>
                                             </div>
                                             <div class="accordion-item listing-accordion__item">
@@ -613,386 +547,270 @@
                                                 <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-2" aria-expanded="true" aria-controls="2">Торговое наименование</button>
                                               </div>
                                               <div class="accordion-collapse collapse show" id="panel-2">
-                                                <div class="accordion-body collapsed" data-collapse-parent>
-                                                  <div class="accordion-item__collapse" data-collapse-block>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Аллегра</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Аллервэй</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Аллергодил</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Аллергоферон</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Аллергофри</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Аллегра</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Аллервэй</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Аллергодил</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Аллергоферон</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Аллергофри</span>
-                                                    </label>
-                                                  </div>
-                                                  <button class="collapse-button collapse-button--collapsed" type="button"><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
-                                                    <svg class="collapse-button__arrow">
-                                                      <use xlink:href="images/sprites.svg#collarrow"></use>
-                                                    </svg>
-                                                  </button>
+                                                <div class="accordion-body">
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-0"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Аллегра</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-1"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Аллервэй</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-2"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Аллергодил</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-3"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Аллергоферон</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="trade-name" data-id="tradename-4"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Аллергофри</span>
+                                                  </label>
                                                 </div>
+                                                <button class="collapse-button collapse-button collapse-button--in-filter collapse-button--collapsed" type="button" data-collapse-loading><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
+                                                  <svg class="collapse-button__arrow">
+                                                    <use xlink:href="images/sprites.svg#collarrow"></use>
+                                                  </svg>
+                                                </button>
                                               </div>
                                             </div>
                                             <div class="accordion-item listing-accordion__item">
                                               <div class="accordion-header listing-accordion__link">
-                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-3" aria-expanded="true" aria-controls="3">Первичная упаковка</button>
+                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-3" aria-expanded="true" aria-controls="3">Форма выпуска</button>
                                               </div>
                                               <div class="accordion-collapse collapse show" id="panel-3">
-                                                <div class="accordion-body collapsed" data-collapse-parent>
-                                                  <div class="accordion-item__collapse" data-collapse-block>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Ампула</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Баллон</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Банка</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Блистер</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Контейнер</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Ампула</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Баллон</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Банка</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Блистер</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Контейнер</span>
-                                                    </label>
-                                                  </div>
-                                                  <button class="collapse-button collapse-button--collapsed" type="button"><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
-                                                    <svg class="collapse-button__arrow">
-                                                      <use xlink:href="images/sprites.svg#collarrow"></use>
-                                                    </svg>
-                                                  </button>
+                                                <div class="accordion-body">
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="product-form" data-id="product-form-0"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Аэрозоль</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="product-form" data-id="product-form-1"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Гель</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="product-form" data-id="product-form-2"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Гранулы</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="product-form" data-id="product-form-3"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Драже</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="product-form" data-id="product-form-4"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Капли глазные</span>
+                                                  </label>
                                                 </div>
+                                                <button class="collapse-button collapse-button collapse-button--in-filter collapse-button--collapsed" type="button" data-collapse-loading><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
+                                                  <svg class="collapse-button__arrow">
+                                                    <use xlink:href="images/sprites.svg#collarrow"></use>
+                                                  </svg>
+                                                </button>
                                               </div>
                                             </div>
                                             <div class="accordion-item listing-accordion__item">
                                               <div class="accordion-header listing-accordion__link">
-                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-4" aria-expanded="true" aria-controls="4">Дозировка</button>
+                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-4" aria-expanded="true" aria-controls="4">Первичная упаковка</button>
                                               </div>
                                               <div class="accordion-collapse collapse show" id="panel-4">
-                                                <div class="accordion-body collapsed" data-collapse-parent>
-                                                  <div class="accordion-item__collapse" data-collapse-block>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">0,01%</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">0,05%</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">0,05г</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">0,1г</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">5г</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">0,01%</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">0,05%</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">0,05г</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">0,1г</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">5г</span>
-                                                    </label>
-                                                  </div>
-                                                  <button class="collapse-button collapse-button--collapsed" type="button"><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
-                                                    <svg class="collapse-button__arrow">
-                                                      <use xlink:href="images/sprites.svg#collarrow"></use>
-                                                    </svg>
-                                                  </button>
+                                                <div class="accordion-body">
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-0"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Ампула</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-1"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Баллон</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-2"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Банка</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-3"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Блистер</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="primary-packaging" data-id="primarypackaging-4"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Контейнер</span>
+                                                  </label>
                                                 </div>
+                                                <button class="collapse-button collapse-button collapse-button--in-filter collapse-button--collapsed" type="button" data-collapse-loading><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
+                                                  <svg class="collapse-button__arrow">
+                                                    <use xlink:href="images/sprites.svg#collarrow"></use>
+                                                  </svg>
+                                                </button>
                                               </div>
                                             </div>
                                             <div class="accordion-item listing-accordion__item">
                                               <div class="accordion-header listing-accordion__link">
-                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-5" aria-expanded="true" aria-controls="5">Количество в упаковке</button>
+                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-5" aria-expanded="true" aria-controls="5">Дозировка</button>
                                               </div>
                                               <div class="accordion-collapse collapse show" id="panel-5">
-                                                <div class="accordion-body collapsed" data-collapse-parent>
-                                                  <div class="accordion-item__collapse" data-collapse-block>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">1</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">2</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">3</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">4</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">5</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">1</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">2</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">3</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">4</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">5</span>
-                                                    </label>
-                                                  </div>
-                                                  <button class="collapse-button collapse-button--collapsed" type="button"><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
-                                                    <svg class="collapse-button__arrow">
-                                                      <use xlink:href="images/sprites.svg#collarrow"></use>
-                                                    </svg>
-                                                  </button>
+                                                <div class="accordion-body">
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-0"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">0,01%</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-1"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">0,05%</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-2"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">0,05г</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-3"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">0,1г</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="Dosage" data-id="Dosage-4"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">5г</span>
+                                                  </label>
                                                 </div>
+                                                <button class="collapse-button collapse-button collapse-button--in-filter collapse-button--collapsed" type="button" data-collapse-loading><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
+                                                  <svg class="collapse-button__arrow">
+                                                    <use xlink:href="images/sprites.svg#collarrow"></use>
+                                                  </svg>
+                                                </button>
                                               </div>
                                             </div>
                                             <div class="accordion-item listing-accordion__item">
                                               <div class="accordion-header listing-accordion__link">
-                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-6" aria-expanded="true" aria-controls="6">Действующее вещество</button>
+                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-6" aria-expanded="true" aria-controls="6">Количество в упаковке</button>
                                               </div>
                                               <div class="accordion-collapse collapse show" id="panel-6">
-                                                <div class="accordion-body collapsed" data-collapse-parent>
-                                                  <div class="accordion-item__collapse" data-collapse-block>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Азеластин</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Азеластин+Мометазон</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Биластин</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Дезлоратадин</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Диметинден</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Азеластин</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Азеластин+Мометазон</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Биластин</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Дезлоратадин</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Диметинден</span>
-                                                    </label>
-                                                  </div>
-                                                  <button class="collapse-button collapse-button--collapsed" type="button"><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
-                                                    <svg class="collapse-button__arrow">
-                                                      <use xlink:href="images/sprites.svg#collarrow"></use>
-                                                    </svg>
-                                                  </button>
+                                                <div class="accordion-body">
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-0"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">1</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-1"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">2</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-2"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">3</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-3"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">4</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="quantity-in-package" data-id="quantityinpackage-4"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">5</span>
+                                                  </label>
                                                 </div>
+                                                <button class="collapse-button collapse-button collapse-button--in-filter collapse-button--collapsed" type="button" data-collapse-loading><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
+                                                  <svg class="collapse-button__arrow">
+                                                    <use xlink:href="images/sprites.svg#collarrow"></use>
+                                                  </svg>
+                                                </button>
                                               </div>
                                             </div>
                                             <div class="accordion-item listing-accordion__item">
                                               <div class="accordion-header listing-accordion__link">
-                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-7" aria-expanded="true" aria-controls="7">Производитель</button>
+                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-7" aria-expanded="true" aria-controls="7">Действующее вещество</button>
                                               </div>
                                               <div class="accordion-collapse collapse show" id="panel-7">
+                                                <div class="accordion-body">
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-0"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Азеластин</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-1"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Азеластин+Мометазон</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-2"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Биластин</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-3"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Дезлоратадин</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="active-ingredient" data-id="activeingredient-4"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Диметинден</span>
+                                                  </label>
+                                                </div>
+                                                <button class="collapse-button collapse-button collapse-button--in-filter collapse-button--collapsed" type="button" data-collapse-loading><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
+                                                  <svg class="collapse-button__arrow">
+                                                    <use xlink:href="images/sprites.svg#collarrow"></use>
+                                                  </svg>
+                                                </button>
+                                              </div>
+                                            </div>
+                                            <div class="accordion-item listing-accordion__item">
+                                              <div class="accordion-header listing-accordion__link">
+                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-8" aria-expanded="true" aria-controls="8">Производитель</button>
+                                              </div>
+                                              <div class="accordion-collapse collapse show" id="panel-8">
                                                 <div class="accordion-body collapsed" data-collapse-parent>
                                                   <div class="listing-accordion__search">
                                                     <div class="enter-modal__group-inner enter-modal__group-inner--in-filter">
@@ -1137,100 +955,66 @@
                                             </div>
                                             <div class="accordion-item listing-accordion__item">
                                               <div class="accordion-header listing-accordion__link">
-                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-8" aria-expanded="true" aria-controls="8">Страна</button>
+                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-9" aria-expanded="true" aria-controls="9">Страна</button>
                                               </div>
-                                              <div class="accordion-collapse collapse show" id="panel-8">
-                                                <div class="accordion-body collapsed">
-                                                  <div class="accordion-item__collapse" data-collapse-block>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Австрия</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Белоруссия</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Бельгия</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Болгария</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Великобритания</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Австрия</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Белоруссия</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-2"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Бельгия</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-3"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Болгария</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-4"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Великобритания</span>
-                                                    </label>
-                                                  </div>
-                                                  <button class="collapse-button collapse-button--collapsed" type="button"><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
-                                                    <svg class="collapse-button__arrow">
-                                                      <use xlink:href="images/sprites.svg#collarrow"></use>
-                                                    </svg>
-                                                  </button>
+                                              <div class="accordion-collapse collapse show" id="panel-9">
+                                                <div class="accordion-body">
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-0"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Австрия</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-1"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Белоруссия</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-2"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Бельгия</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-3"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Болгария</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="country" data-id="country-4"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Великобритания</span>
+                                                  </label>
                                                 </div>
+                                                <button class="collapse-button collapse-button collapse-button--in-filter collapse-button--collapsed" type="button" data-collapse-loading><span class="collapse-button__expand">Показать все</span><span class="collapse-button__collapse">Свернуть</span>
+                                                  <svg class="collapse-button__arrow">
+                                                    <use xlink:href="images/sprites.svg#collarrow"></use>
+                                                  </svg>
+                                                </button>
                                               </div>
                                             </div>
                                             <div class="accordion-item listing-accordion__item">
                                               <div class="accordion-header listing-accordion__link">
-                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-9" aria-expanded="true" aria-controls="9">Отпуск по рецепту</button>
+                                                <button class="accordion-button listing-accordion__button" type="button" data-bs-toggle="collapse" data-bs-target="#panel-10" aria-expanded="true" aria-controls="10">Отпуск по рецепту</button>
                                               </div>
-                                              <div class="accordion-collapse collapse show" id="panel-9">
+                                              <div class="accordion-collapse collapse show" id="panel-10">
                                                 <div class="accordion-body">
-                                                  <div>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="recipe" data-id="recipe-0"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">По рецепту</span>
-                                                    </label>
-                                                    <label class="filter-listing__check-item">
-                                                      <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="recipe" data-id="recipe-1"><span class="policy-modal__false-check">
-                                                        <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                          <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </svg></span><span class="filter-listing__check-value">Без рецепта</span>
-                                                    </label>
-                                                  </div>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="recipe" data-id="recipe-0"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">По рецепту</span>
+                                                  </label>
+                                                  <label class="filter-listing__check-item">
+                                                    <input class="policy-modal__input filter-listing__checkbox" type="checkbox" name="recipe" data-id="recipe-1"><span class="policy-modal__false-check">
+                                                      <svg width="12" height="9" viewbox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M1 4L4.5 7.5L11 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                      </svg></span><span class="filter-listing__check-value">Без рецепта</span>
+                                                  </label>
                                                 </div>
                                               </div>
                                             </div>
@@ -1348,9 +1132,9 @@
                                                       </svg>
                                                     </button>
                                                   </div>
-                                                  <div class="product-cart__images" data-mousemove-slider>
+                                                  <div class="product-cart__images">
                                                     <div class="swiper-container swiper product-cart__slider">
-                                                      <div class="swiper-wrapper">
+                                                      <div class="swiper-wrapper" data-mousemove-slider>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/1.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/1.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/2.jpg" alt="alt"></a></div>
@@ -1417,9 +1201,9 @@
                                                       </svg>
                                                     </button>
                                                   </div>
-                                                  <div class="product-cart__images" data-mousemove-slider>
+                                                  <div class="product-cart__images">
                                                     <div class="swiper-container swiper product-cart__slider">
-                                                      <div class="swiper-wrapper">
+                                                      <div class="swiper-wrapper" data-mousemove-slider>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/2.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/1.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/2.jpg" alt="alt"></a></div>
@@ -1446,7 +1230,7 @@
                                                   <div class="product-cart__buttons product-cart__buttons--in-listing">
                                                     <div class="d-block position-relative">
                                                       <div class="card-adding-block">
-                                                        <button class="button button-border js-add-cart" type="button" data-tocart-btn>В корзину</button>
+                                                        <button class="button button-border" type="button" data-modal="productSearchModal">В корзину</button>
                                                         <!-- Чтобы показать лоадер надо на кнопку добавить класс "button--loading"-->
                                                         <div class="product-cart__adding js-add-block">
                                                           <div class="card-adding">
@@ -1489,9 +1273,9 @@
                                                       </svg>
                                                     </button>
                                                   </div>
-                                                  <div class="product-cart__images" data-mousemove-slider>
+                                                  <div class="product-cart__images">
                                                     <div class="swiper-container swiper product-cart__slider">
-                                                      <div class="swiper-wrapper">
+                                                      <div class="swiper-wrapper" data-mousemove-slider>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/3.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/1.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/2.jpg" alt="alt"></a></div>
@@ -1515,7 +1299,7 @@
                                                   <div class="product-cart__buttons product-cart__buttons--in-listing">
                                                     <div class="d-block position-relative">
                                                       <div class="card-adding-block">
-                                                        <button class="button button-border js-add-cart" type="button" data-tocart-btn>В корзину</button>
+                                                        <button class="button button-border" type="button" data-modal="productSearchModal">В корзину</button>
                                                         <!-- Чтобы показать лоадер надо на кнопку добавить класс "button--loading"-->
                                                         <div class="product-cart__adding js-add-block">
                                                           <div class="card-adding">
@@ -1558,9 +1342,9 @@
                                                       </svg>
                                                     </button>
                                                   </div>
-                                                  <div class="product-cart__images" data-mousemove-slider>
+                                                  <div class="product-cart__images">
                                                     <div class="swiper-container swiper product-cart__slider">
-                                                      <div class="swiper-wrapper">
+                                                      <div class="swiper-wrapper" data-mousemove-slider>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/4.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/1.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/2.jpg" alt="alt"></a></div>
@@ -1587,7 +1371,7 @@
                                                   <div class="product-cart__buttons product-cart__buttons--in-listing">
                                                     <div class="d-block position-relative">
                                                       <div class="card-adding-block">
-                                                        <button class="button button-border js-add-cart" type="button" data-tocart-btn>В корзину</button>
+                                                        <button class="button button-border" type="button" data-modal="productSearchModal">В корзину</button>
                                                         <!-- Чтобы показать лоадер надо на кнопку добавить класс "button--loading"-->
                                                         <div class="product-cart__adding js-add-block">
                                                           <div class="card-adding">
@@ -1630,9 +1414,9 @@
                                                       </svg>
                                                     </button>
                                                   </div>
-                                                  <div class="product-cart__images" data-mousemove-slider>
+                                                  <div class="product-cart__images">
                                                     <div class="swiper-container swiper product-cart__slider">
-                                                      <div class="swiper-wrapper">
+                                                      <div class="swiper-wrapper" data-mousemove-slider>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/5.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/1.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/2.jpg" alt="alt"></a></div>
@@ -1658,7 +1442,7 @@
                                                       <div class="card-adding-block"><a class="button button-border product-cart__analogs" href="#">Аналоги от 39 523 ₽</a>
                                                       </div>
                                                     </div>
-                                                    <label class="bell" type="button" data-bs-toggle="tooltip" data-bs-original-title="Сообщить о поступлении" data-disable-title="Не сообщать о поступлении" data-anable-title="Сообщить о поступлении">
+                                                    <label class="bell" type="button" data-bs-toggle="tooltip" data-bs-custom-class="bell-tooltip" data-bs-original-title="Сообщить о поступлении" data-disable-title="Не сообщать о поступлении" data-anable-title="Сообщить о поступлении">
                                                       <input class="bell__check" type="checkbox" name="bell-checkbox" checked data-toast-switcher>
                                                     </label>
                                                   </div>
@@ -1683,9 +1467,9 @@
                                                       </svg>
                                                     </button>
                                                   </div>
-                                                  <div class="product-cart__images" data-mousemove-slider>
+                                                  <div class="product-cart__images">
                                                     <div class="swiper-container swiper product-cart__slider">
-                                                      <div class="swiper-wrapper">
+                                                      <div class="swiper-wrapper" data-mousemove-slider>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/1.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/2.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/3.jpg" alt="alt"></a></div>
@@ -1713,7 +1497,7 @@
                                                       <div class="card-adding-block"><a class="button button-border button--loading product-cart__analogs" href="#">Аналоги от 39 523 ₽</a>
                                                       </div>
                                                     </div>
-                                                    <label class="bell" type="button" data-bs-toggle="tooltip" data-bs-original-title="Сообщить о поступлении" data-disable-title="Не сообщать о поступлении" data-anable-title="Сообщить о поступлении">
+                                                    <label class="bell" type="button" data-bs-toggle="tooltip" data-bs-custom-class="bell-tooltip" data-bs-original-title="Сообщить о поступлении" data-disable-title="Не сообщать о поступлении" data-anable-title="Сообщить о поступлении">
                                                       <input class="bell__check" type="checkbox" name="bell-checkbox" checked data-toast-switcher>
                                                     </label>
                                                   </div>
@@ -1738,9 +1522,9 @@
                                                       </svg>
                                                     </button>
                                                   </div>
-                                                  <div class="product-cart__images" data-mousemove-slider>
+                                                  <div class="product-cart__images">
                                                     <div class="swiper-container swiper product-cart__slider">
-                                                      <div class="swiper-wrapper">
+                                                      <div class="swiper-wrapper" data-mousemove-slider>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/1.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/2.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/3.jpg" alt="alt"></a></div>
@@ -1785,9 +1569,9 @@
                                                       </svg>
                                                     </button>
                                                   </div>
-                                                  <div class="product-cart__images" data-mousemove-slider>
+                                                  <div class="product-cart__images">
                                                     <div class="swiper-container swiper product-cart__slider">
-                                                      <div class="swiper-wrapper">
+                                                      <div class="swiper-wrapper" data-mousemove-slider>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/1.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/2.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/3.jpg" alt="alt"></a></div>
@@ -1832,9 +1616,9 @@
                                                       </svg>
                                                     </button>
                                                   </div>
-                                                  <div class="product-cart__images" data-mousemove-slider>
+                                                  <div class="product-cart__images">
                                                     <div class="swiper-container swiper product-cart__slider">
-                                                      <div class="swiper-wrapper">
+                                                      <div class="swiper-wrapper" data-mousemove-slider>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/1.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/2.jpg" alt="alt"></a></div>
                                                         <div class="swiper-slide product-cart__slide"><a class="product-cart__slide-link" href="#"><img src="images/listing/card-slider/3.jpg" alt="alt"></a></div>
@@ -1951,21 +1735,48 @@
             </div>
           </div>
         </section>
-        <section class="product-tags usefull-info">
+        <section class="product-page-sect product-about listing-about collapsed" data-collapse-parent>
           <div class="container">
             <div class="row">
-              <div class="col-12">
-                <h2 class="subtitle product-tags__title usefull-info__title">Полезная информация</h2>
-                <div class="collapsed" data-collapse-parent="">
-                  <div class="product-tags__inner usefull-info__inner" data-collapse-block="">
-                    <p class="usefull-info__text">Аллергия – это реакция иммунной системы на вещества, не представляющие угрозы в нормальных условиях. Эти вещества называются аллергенами, которыми могут стать пыльца растений, пищевые продукты, животные и др. Аллергические проявления включают в себя неспецифические реакции организма на внешние раздражители. Аллергические  </p>
+              <div class="col product-layout-content">
+                <div class="product-about__inner product-about__inner--in-listing" data-collapse-block="">
+                  <h2 class="subtitle product-about__title">Полезная информация</h2>
+                  <p class="listing-about__text">Аллергия – это реакция иммунной системы на вещества, не представляющие угрозы в нормальных условиях. Эти вещества называются аллергенами, которыми могут стать пыльца растений, пищевые продукты, животные и др. Аллергические проявления включают в себя неспецифические реакции организма на внешние раздражители. Иммунная система воспринимает аллергены как опасные вещества,</p>
+                  <h4 class="feature-product-about__title">Реакции на аллергию</h4>
+                  <ul class="listing-about__list">
+                    <li class="listing-about__list-item">Высыпания на кожных покровах</li>
+                    <li class="listing-about__list-item">Зуд</li>
+                    <li class="listing-about__list-item">Слезотечение</li>
+                    <li class="listing-about__list-item">Отек</li>
+                    <li class="listing-about__list-item">Насморк</li>
+                  </ul>
+                  <h4 class="feature-product-about__title">Формы выпуска противоаллергических медикаментов</h4>
+                  <ul class="listing-about__list">
+                    <li class="listing-about__list-item"><b>Таблетки</b> — это распространенный способ борьбы с аллергией. Они отпускаются в аптеках без рецепта и по рецепту врача. Таблетки содержат активные ингредиенты, включая антигистаминные препараты, кортикостероиды и др.</li>
+                    <li class="listing-about__list-item"><b>Мази и кремы</b> — это лекарственные средства, которые наносятся на кожу. Они содержат антигистаминные препараты, кортикостероиды, антибиотики и др.</li>
+                    <li class="listing-about__list-item"><b>Уколы</b> предписываются от сильных аллергических реакций, таких как анафилактический шок. В их состав входит адреналин или вещества, снижающие воспаление и расширяющие дыхательные пути.</li>
+                    <li class="listing-about__list-item"><b>Ингаляторы</b> вводят противоаллергические вещества через дыхательные пути. Их назначают от симптомов аллергического ринита или астмы. Ингаляторы содержат антигистаминные препараты, кортикостероиды или бронходилататоры.</li>
+                  </ul>
+                  <h4 class="feature-product-about__title">Виды и принцип действия лекарств от аллергии</h4>
+                  <p class="listing-about__text">Лекарства от аллергии предназначены для снятия симптомов. Антигистаминные средства останавливают действие гистамина, который освобождается при контакте с аллергеном и вызывает проявления аллергии. Кортикостероиды применяются для лечения сильных аллергических реакций. Они уменьшают воспаление и снижают ответ иммунной системы на аллергены.</p>
+                  <p class="listing-about__text">При сильных аллергических реакциях возникает анафилактический шок. Для его лечения применяется адреналин. Его вводят в организм внутримышечно или подкожно, что помогает снизить воспаление и расширить дыхательные пути.</p>
+                  <p class="listing-about__text">Некоторые лекарства от аллергии не отпускаются без рецепта, поэтому необходимо обратиться к врачу. Лечение является эффективным только при профессиональном подходе и соблюдении рекомендаций по применению. «ФАРМСИ предоставляет информацию о медикаментах, которые можно купить в аптеках Москвы.</p>
+                  <div class="instructions__specialist specialist-instructions">
+                    <div class="specialist">
+                      <div class="specialist__photo"><img class="specialist__img" src="images/product-card/specialist.jpg" alt=""></div>
+                      <div class="specialist__info">
+                        <div class="specialist__name">Иванова Светлана · Автор текста</div>
+                        <div class="specialist__proff">Кандидат медицинских наук · Стаж 14 лет</div>
+                      </div>
+                    </div>
                   </div>
-                  <button class="collapse-button collapse-button--collapsed" type="button"><span class="collapse-button__expand">&Rcy;&acy;&zcy;&vcy;&iecy;&rcy;&ncy;&ucy;&tcy;&softcy;</span><span class="collapse-button__collapse">&Scy;&vcy;&iecy;&rcy;&ncy;&ucy;&tcy;&softcy;</span>
-                    <svg class="collapse-button__arrow">
-                      <use xlink:href="images/sprites.svg#collarrow"></use>
-                    </svg>
-                  </button>
                 </div>
+                <!-- [data-collapse-block]-->
+                <button class="collapse-button collapse-button--collapsed" type="button"><span class="collapse-button__expand">&Rcy;&acy;&zcy;&vcy;&iecy;&rcy;&ncy;&ucy;&tcy;&softcy;</span><span class="collapse-button__collapse">&Scy;&vcy;&iecy;&rcy;&ncy;&ucy;&tcy;&softcy;</span>
+                  <svg class="collapse-button__arrow">
+                    <use xlink:href="images/sprites.svg#collarrow"></use>
+                  </svg>
+                </button>
               </div>
             </div>
           </div>
@@ -2260,42 +2071,42 @@
         <section class="product-page-sect">
           <div class="container">
             <div class="col-12 col-md-9">
-              <h2 class="subtitle">&TScy;&iecy;&ncy;&acy; &ncy;&acy; &Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &dcy;&rcy;&ucy;&gcy;&icy;&khcy; &gcy;&ocy;&rcy;&ocy;&dcy;&acy;&khcy;</h2>
+              <h2 class="subtitle">Цены в других городах</h2>
               <div class="row">
                 <div class="col-12 col-md-4">
                   <ul class="cities">
-                    <li class="cities__item"><a href="">&Kcy;&ucy;&pcy;&icy;&tcy;&softcy; &Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Ncy;&icy;&zhcy;&ncy;&iecy;&mcy; &Ncy;&ocy;&vcy;&gcy;&ocy;&rcy;&ocy;&dcy;&acy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Scy;&acy;&mcy;&acy;&rcy;&iecy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Rcy;&ocy;&scy;&tcy;&ocy;&vcy;&iecy;-&ncy;&acy;-&Dcy;&ocy;&ncy;&ucy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Scy;&ocy;&chcy;&icy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Kcy;&rcy;&acy;&scy;&ncy;&acy;&dcy;&acy;&rcy;&iecy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Vcy;&ocy;&lcy;&gcy;&ocy;&gcy;&rcy;&acy;&dcy;&iecy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Ncy;&ocy;&vcy;&ocy;&scy;&icy;&bcy;&icy;&rcy;&scy;&kcy;&iecy;</a></li>
+                    <li class="cities__item"><a href="">Санкт-Петербург</a></li>
+                    <li class="cities__item"><a href="">Нижний Новгород</a></li>
+                    <li class="cities__item"><a href="">Самара</a></li>
+                    <li class="cities__item"><a href="">Ростов-на-Дону</a></li>
+                    <li class="cities__item"><a href="">Сочи</a></li>
+                    <li class="cities__item"><a href="">Краснодар</a></li>
+                    <li class="cities__item"><a href="">Волгоград</a></li>
+                    <li class="cities__item"><a href="">Новосибирск</a></li>
                   </ul>
                 </div>
                 <div class="col-12 col-md-4">
                   <ul class="cities">
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Scy;&acy;&ncy;&kcy;&tcy;-&Pcy;&iecy;&tcy;&iecy;&rcy;&bcy;&ucy;&rcy;&gcy;&iecy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Ncy;&icy;&zhcy;&ncy;&iecy;&mcy; &Ncy;&ocy;&vcy;&gcy;&ocy;&rcy;&ocy;&dcy;&acy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Scy;&acy;&mcy;&acy;&rcy;&iecy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Rcy;&ocy;&scy;&tcy;&ocy;&vcy;&iecy;-&ncy;&acy;-&Dcy;&ocy;&ncy;&ucy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Scy;&ocy;&chcy;&icy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Kcy;&rcy;&acy;&scy;&ncy;&acy;&dcy;&acy;&rcy;&iecy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Vcy;&ocy;&lcy;&gcy;&ocy;&gcy;&rcy;&acy;&dcy;&iecy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Ncy;&ocy;&vcy;&ocy;&scy;&icy;&bcy;&icy;&rcy;&scy;&kcy;&iecy;</a></li>
+                    <li class="cities__item"><a href="">Санкт-Петербург</a></li>
+                    <li class="cities__item"><a href="">Нижний Новгород</a></li>
+                    <li class="cities__item"><a href="">Самара</a></li>
+                    <li class="cities__item"><a href="">Ростов-на-Дону</a></li>
+                    <li class="cities__item"><a href="">Сочи</a></li>
+                    <li class="cities__item"><a href="">Краснодар</a></li>
+                    <li class="cities__item"><a href="">Волгоград</a></li>
+                    <li class="cities__item"><a href="">Новосибирск</a></li>
                   </ul>
                 </div>
                 <div class="col-12 col-md-4">
                   <ul class="cities">
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Scy;&acy;&ncy;&kcy;&tcy;-&Pcy;&iecy;&tcy;&iecy;&rcy;&bcy;&ucy;&rcy;&gcy;&iecy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Ncy;&icy;&zhcy;&ncy;&iecy;&mcy; &Ncy;&ocy;&vcy;&gcy;&ocy;&rcy;&ocy;&dcy;&acy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Scy;&acy;&mcy;&acy;&rcy;&iecy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Rcy;&ocy;&scy;&tcy;&ocy;&vcy;&iecy;-&ncy;&acy;-&Dcy;&ocy;&ncy;&ucy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Scy;&ocy;&chcy;&icy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Kcy;&rcy;&acy;&scy;&ncy;&acy;&dcy;&acy;&rcy;&iecy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Vcy;&ocy;&lcy;&gcy;&ocy;&gcy;&rcy;&acy;&dcy;&iecy;</a></li>
-                    <li class="cities__item"><a href="">&Bcy;&icy;&scy;&ocy;&pcy;&rcy;&ocy;&lcy;&ocy;&lcy; &vcy; &Ncy;&ocy;&vcy;&ocy;&scy;&icy;&bcy;&icy;&rcy;&scy;&kcy;&iecy;</a></li>
+                    <li class="cities__item"><a href="">Санкт-Петербург</a></li>
+                    <li class="cities__item"><a href="">Нижний Новгород</a></li>
+                    <li class="cities__item"><a href="">Самара</a></li>
+                    <li class="cities__item"><a href="">Ростов-на-Дону</a></li>
+                    <li class="cities__item"><a href="">Сочи</a></li>
+                    <li class="cities__item"><a href="">Краснодар</a></li>
+                    <li class="cities__item"><a href="">Волгоград</a></li>
+                    <li class="cities__item"><a href="">Новосибирск</a></li>
                   </ul>
                 </div>
               </div>
@@ -2478,7 +2289,7 @@
       </div>
     </div>
     <div class="modal modal-big" id="filterMarkModal" tabindex="-1" aria-modal="true" role="dialog">
-      <div class="modal-dialog enter-modal-dialog">
+      <div class="modal-dialog modal-dialog-centered enter-modal-dialog">
         <div class="enter-modal filter-mark-modal modal-content">
           <button class="modal__close enter-modal__close" type="button" data-bs-dismiss="modal" aria-label="Close">
             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2506,7 +2317,7 @@
       </div>
     </div>
     <div class="modal modal-big" id="filterMarkModalError" tabindex="-1" aria-modal="true" role="dialog">
-      <div class="modal-dialog enter-modal-dialog">
+      <div class="modal-dialog modal-dialog-centered enter-modal-dialog">
         <div class="enter-modal filter-mark-modal modal-content">
           <button class="modal__close enter-modal__close" type="button" data-bs-dismiss="modal" aria-label="Close">
             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2848,6 +2659,27 @@
                 </svg>
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal show" id="productSearchModal" tabindex="-1" aria-modal="true" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" style="max-width: 416px;">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal__title">&Tcy;&ocy;&vcy;&acy;&rcy;&acy; &ncy;&iecy;&tcy; &vcy;&nbsp;&vcy;&ycy;&bcy;&rcy;&acy;&ncy;&ncy;&ocy;&mcy; &gcy;&ocy;&rcy;&ocy;&dcy;&iecy;,<br> &ncy;&ocy;&nbsp;&iecy;&scy;&tcy;&softcy; &vcy;&nbsp;&dcy;&rcy;&ucy;&gcy;&icy;&khcy; &acy;&pcy;&tcy;&iecy;&kcy;&acy;&khcy; &rcy;&iecy;&gcy;&icy;&ocy;&ncy;&acy;</h3>
+            <button class="modal__close" type="button" data-bs-dismiss="modal" aria-label="Close">
+              <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.332 4.66675L4.66536 15.3334" stroke="#ABB6CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M4.66797 4.66675L15.3346 15.3334" stroke="#ABB6CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="modal-body" style=" margin: 4px 0 28px;">
+            <button class="button button-primary" type="button" style="font-size: 16px; line-height: 24px; padding: 12px 28px; width: 100%; margin-top: 16px;">&Pcy;&ocy;&scy;&mcy;&ocy;&tcy;&rcy;&iecy;&tcy;&softcy; &vcy; &acy;&pcy;&tcy;&iecy;&kcy;&acy;&khcy; &rcy;&iecy;&gcy;&icy;&ocy;&ncy;&acy;</button>
+          </div>
+          <div class="modal-footer">
+            <p class="modal__description js-cart-product-search-description">&Icy;&lcy;&icy; &rcy;&acy;&scy;&shcy;&icy;&rcy;&softcy;&tcy;&iecy; &pcy;&ocy;&icy;&scy;&kcy; &ncy;&acy; &vcy;&iecy;&scy;&softcy; &rcy;&iecy;&gcy;&icy;&ocy;&ncy;<br><span class="modal__description--green js-cart-product-search-perform" data-bs-dismiss="modal">&Mcy;&ocy;&scy;&kcy;&vcy;&acy; &icy; &Mcy;&Ocy;</span>, &chcy;&tcy;&ocy;&bcy;&ycy; &scy;&ocy;&bcy;&rcy;&acy;&tcy;&softcy; &kcy;&ocy;&rcy;&zcy;&icy;&ncy;&ucy;<br>                    &scy; &ecy;&tcy;&icy;&mcy; &tcy;&ocy;&vcy;&acy;&rcy;&ocy;&mcy;</p>
           </div>
         </div>
       </div>
