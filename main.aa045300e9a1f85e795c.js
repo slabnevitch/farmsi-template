@@ -12522,8 +12522,11 @@ const recipeTooltipHandler = () => {
     var isRecieptClicked = false;
     $tooltipedItems.each((i, item) => {
       var reciepTooltip = new bootstrap.Tooltip(item, {});
-      console.log(reciepTooltip);
       reciepTooltips.push(reciepTooltip);
+    });
+    window.addEventListener("unload", function () {
+      console.log('unload!');
+      recipeTooltipScrollHide();
     });
     $(window).on('scroll', recipeTooltipScrollHide);
     $(document).on('click', recipeTooltipClickOutside);
@@ -44058,4 +44061,4 @@ $(window).scroll(fixedHeader);
 
 /******/ })()
 ;
-//# sourceMappingURL=main.a762ca0fd311a84f9e88.js.map
+//# sourceMappingURL=main.aa045300e9a1f85e795c.js.map
